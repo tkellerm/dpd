@@ -1,0 +1,33 @@
+database master Lieferant {
+	number 1
+	classname Vendor
+	structure Lieferant {
+		groupNumber 1
+		head {
+		}
+	}
+	structure Lieferantenkontakt {
+		groupNumber 2
+		head {
+		}
+	}
+	structure Bewegungsdaten {
+		groupNumber 3
+		head {
+		}
+	}
+	structure "EDI Kunden/Lieferanteninfo" {
+		groupNumber 4
+		head {
+		}
+		table {
+		}
+	}
+	structure "Kunden/Lieferantenbeziehungen" {
+		groupNumber 5
+		head {
+		}
+		table {
+		}
+	}
+}

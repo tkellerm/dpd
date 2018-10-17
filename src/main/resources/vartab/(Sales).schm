@@ -1,0 +1,8371 @@
+database Verkauf {
+	number 3
+	classname Sales
+	structure Verkauf {
+		groupNumber 1
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+	}
+	structure Position {
+		groupNumber 2
+		head {
+		}
+	}
+	structure Verkaufsrahmenauftrag {
+		groupNumber 20
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Angebot {
+		groupNumber 21
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Auftrag {
+		groupNumber 22
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Verkaufslieferschein {
+		groupNumber 23
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Verkaufsrechnung {
+		groupNumber 24
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Webauftrag {
+		groupNumber 25
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Serviceangebot {
+		groupNumber 27
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Serviceauftrag {
+		groupNumber 28
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Reparaturauftrag {
+		groupNumber 29
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Chance {
+		groupNumber 30
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+	structure Kostenvoranschlag {
+		groupNumber 31
+		head {
+			field AZL1000011 ordertypef {
+				label ""
+				heading ""
+				description "DPD Auftragstypen File"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 ordertypew {
+				label ""
+				heading ""
+				description "DPD Auftragstypen Web"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 saturday {
+				label ""
+				heading ""
+				description Samstagsanlieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworksd {
+				label ""
+				heading ""
+				description "Empfänger zahlt Versand / ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 guarantee {
+				label ""
+				heading ""
+				description "Garantie bei Internationalem Versand"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ytyres {
+				label ""
+				heading ""
+				description Reifen
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000009 persdelivery {
+				label ""
+				heading ""
+				description ""
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickup {
+				label ""
+				heading ""
+				description Pickup
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I3 picktour {
+				label ""
+				heading ""
+				description Tournummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I5 pickquantity {
+				label ""
+				heading ""
+				description "Menge abzuholender Packete"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD pickdate {
+				label ""
+				heading ""
+				description Abholdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 pickday {
+				label ""
+				heading ""
+				description
+				"Abholtag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.)"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot1 {
+				label ""
+				heading ""
+				description "Abholzeit 1  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z pickfromt2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z picktot2 {
+				label ""
+				heading ""
+				description "Abholzeit 2  bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 pickextra {
+				label ""
+				heading ""
+				description "extra Abholung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+				label ""
+				heading ""
+				description "Benachrichtigung aktivieren"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I1 notechannel {
+				label ""
+				heading ""
+				description "Benachritigungsart 1=Email  2=SMS"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 notevalue {
+				label ""
+				heading ""
+				description "Emailadresse oder Handynummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL2 notelang {
+				label ""
+				heading ""
+				description "Sprachkürzel"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 notepers {
+				label ""
+				heading ""
+				description "persönliche Benachrichtigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteproact {
+				label ""
+				heading ""
+				description "proaktive Benachritigung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I2 noterule {
+				label ""
+				heading ""
+				description "proaktive Benachritigung RegelCode"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterupick {
+				label ""
+				heading ""
+				description Abholung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterunodel {
+				label ""
+				heading ""
+				description "nicht Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noterudel {
+				label ""
+				heading ""
+				description Auslieferung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruinbo {
+				label ""
+				heading ""
+				description Inbound
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 noteruoutde {
+				label ""
+				heading ""
+				description "Auf dem Weg zur Auslieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 notedelday {
+				label ""
+				heading ""
+				description
+				"Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldafr {
+				label ""
+				heading ""
+				description "Anlierungsdatum von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD notedeldato {
+				label ""
+				heading ""
+				description "Anlierungsdatum bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltifr {
+				label ""
+				heading ""
+				description "Anlierungszeit von"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z notedeltito {
+				label ""
+				heading ""
+				description "Anlierungszeit bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref1 {
+				label ""
+				heading ""
+				description "Referenznummer 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref2 {
+				label ""
+				heading ""
+				description "Referenznummer 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref3 {
+				label ""
+				heading ""
+				description "Referenznummer 3"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 custref4 {
+				label ""
+				heading ""
+				description "Referenznummer 4"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL4 depot {
+				label ""
+				heading ""
+				description "Depot-Nummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldel {
+				label ""
+				heading ""
+				description "Komplette Lieferung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 compldellab {
+				label ""
+				heading ""
+				description "Komplette Lieferung Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 volume {
+				label ""
+				heading ""
+				description "Volumen in cm³"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 weight {
+				label ""
+				heading ""
+				description "Gewicht in kg"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD expsenddate {
+				label ""
+				heading ""
+				description "erwartetes Sendedatum"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field Z expsendtime {
+				label ""
+				heading ""
+				description "erwartete Sendezeit"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendname1 {
+				label ""
+				heading ""
+				description "Sender Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendname2 {
+				label ""
+				heading ""
+				description "Sender Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendstreet {
+				label ""
+				heading ""
+				description "Sender Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 sendhouseno {
+				label ""
+				heading ""
+				description "Sender Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendstate {
+				label ""
+				heading ""
+				description "Sender Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" sendcountry {
+				label ""
+				heading ""
+				description "Sender Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 sendzipcode {
+				label ""
+				heading ""
+				description "Sender PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendcity {
+				label ""
+				heading ""
+				description "Sender Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 sendgln {
+				label ""
+				heading ""
+				description "Sender GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 sendcustno {
+				label ""
+				heading ""
+				description "Sender Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 sendcontact {
+				label ""
+				heading ""
+				description "Sender Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendphone {
+				label ""
+				heading ""
+				description "Sender Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 sendfax {
+				label ""
+				heading ""
+				description "Sender Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendemail {
+				label ""
+				heading ""
+				description "Sender Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 sendcomment {
+				label ""
+				heading ""
+				description "Sender Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 sendiaccount {
+				label ""
+				heading ""
+				description "Sender Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciname1 {
+				label ""
+				heading ""
+				description "Empfänger Name 1"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 reciname2 {
+				label ""
+				heading ""
+				description "Empfänger Name 2"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recistreet {
+				label ""
+				heading ""
+				description "Empfänger Straße"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL8 recihouseno {
+				label ""
+				heading ""
+				description "Empfänger Hausnummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recistate {
+				label ""
+				heading ""
+				description "Empfänger Bundesland"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" recicountry {
+				label ""
+				heading ""
+				description "Empfänger Land"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL9 recizipcode {
+				label ""
+				heading ""
+				description "Empfänger PLZ"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 recicity {
+				label ""
+				heading ""
+				description "Empfänger Ort"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 recigln {
+				label ""
+				heading ""
+				description "Empfänger GLN"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL17 recicustno {
+				label ""
+				heading ""
+				description "Empfänger Kundennummer"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL35 recicontac {
+				label ""
+				heading ""
+				description "Empfänger Kontakt"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 reciphone {
+				label ""
+				heading ""
+				description "Empfänger Telefon"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 recifax {
+				label ""
+				heading ""
+				description "Empfänger Fax"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciemail {
+				label ""
+				heading ""
+				description "Empfänger Email"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL70 recicomment {
+				label ""
+				heading ""
+				description "Empfänger Kommentar"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL50 reciiaccount {
+				label ""
+				heading ""
+				description "Empfänger Kontozuordnung Kostenstelle der Rechnungsdaten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field I9 insuramount {
+				label ""
+				heading ""
+				description Versicherungsbetrag
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS94:1" insurcur {
+				label ""
+				heading ""
+				description "Versicherung Währung"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field BU3 skip getlabel {
+				label ""
+				heading ""
+				description "Labels holen"
+				screen VIEW_EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field TN labelstore {
+				label ""
+				heading ""
+				description "gespeichertes Label"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exported {
+				label ""
+				heading ""
+				description "exportiert Label vorhanden"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL10 errocode {
+				label ""
+				heading ""
+				description Fehlercode
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 errormessage {
+				label ""
+				heading ""
+				description Fehlermeldung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 paketid {
+				label ""
+				heading ""
+				description "Paket-Id"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 sendungsid {
+				label ""
+				heading ""
+				description Sendungsid
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+}

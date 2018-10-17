@@ -1,0 +1,201 @@
+database master Firma {
+	number 12
+	classname Company
+	structure Rechnungsstellung {
+		groupNumber 2
+		head {
+		}
+		table {
+		}
+	}
+	structure Kurztext {
+		groupNumber 3
+		head {
+			field AZL1000011 productfile {
+				label ""
+				heading ""
+				description "DPD Produkt File-Schnittstelle"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field AZMK1000012 productweb {
+				label ""
+				heading ""
+				description "DPD Produkt Web-Schnittstelle"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 exworks {
+				label ""
+				heading ""
+				description "DPD ExWorks"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+	}
+	structure Werkstoff {
+		groupNumber 4
+		head {
+		}
+	}
+	structure Materialzuschlagskopf {
+		groupNumber 5
+		head {
+		}
+	}
+	structure "Gemeinkostensätze" {
+		groupNumber 6
+		head {
+		}
+	}
+	structure Kontenrahmen {
+		groupNumber 7
+		head {
+		}
+		table {
+		}
+	}
+	structure Zahlungsbedingung {
+		groupNumber 8
+		head {
+		}
+		table {
+		}
+	}
+	structure Betriebsdaten {
+		groupNumber 10
+		head {
+		}
+	}
+	structure Passwort {
+		groupNumber 11
+		head {
+		}
+		table {
+		}
+	}
+	structure Termine {
+		groupNumber 12
+		head {
+		}
+		table {
+		}
+	}
+	structure Lohngruppen {
+		groupNumber 13
+		head {
+		}
+		table {
+		}
+	}
+	structure Lohnarten {
+		groupNumber 14
+		head {
+		}
+	}
+	structure Materialbewertungen {
+		groupNumber 15
+		head {
+		}
+		table {
+		}
+	}
+	structure Kurstabelle {
+		groupNumber 16
+		head {
+		}
+		table {
+		}
+	}
+	structure "Materialzuschläge" {
+		groupNumber 17
+		head {
+		}
+		table {
+		}
+	}
+	structure Konfiguration {
+		groupNumber 18
+		head {
+		}
+	}
+	structure "Ländertabelle" {
+		groupNumber 19
+		head {
+		}
+		table {
+		}
+	}
+	structure Tagesplan {
+		groupNumber 20
+		head {
+		}
+		table {
+		}
+	}
+	structure Schichtplan {
+		groupNumber 21
+		head {
+		}
+		table {
+		}
+	}
+	structure Zolltabelle {
+		groupNumber 22
+		head {
+		}
+		table {
+		}
+	}
+	structure Selektionsrohling {
+		groupNumber 24
+		head {
+		}
+		table {
+		}
+	}
+	structure Vartab {
+		groupNumber 26
+		head {
+		}
+		table {
+		}
+	}
+	structure "Verweis-Darstellung" {
+		groupNumber 27
+		head {
+		}
+		table {
+		}
+	}
+	structure Warengruppe {
+		groupNumber 28
+		head {
+		}
+		table {
+		}
+	}
+	structure Produktgruppe {
+		groupNumber 29
+		head {
+		}
+	}
+	structure Einheitentabelle {
+		groupNumber 30
+		head {
+		}
+		table {
+		}
+	}
+	structure "Schlüsseltabelle" {
+		groupNumber 31
+		head {
+		}
+		table {
+		}
+	}
+}

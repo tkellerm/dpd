@@ -1,0 +1,164 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'no.nils:wsdl2java:0.10'
+    }
+}
+
+plugins {
+	id "java"
+	id "maven-publish"
+	id "de.abas.esdk" version "0.10.12"
+	
+}
+apply plugin: 'no.nils.wsdl2java'
+
+repositories {
+	mavenLocal()
+	jcenter()
+	mavenCentral()
+	maven { url "http://$NEXUS_HOST:$NEXUS_PORT/nexus/content/repositories/$NEXUS_NAME-SNAPSHOT" }
+	maven { url "http://$NEXUS_HOST:$NEXUS_PORT/nexus/content/repositories/$NEXUS_NAME" }
+	ivy {
+        url 'https://bitbucket.org/'
+        layout 'pattern', {
+            artifact '/[organisation]/[module]/get/[revision].[ext]'
+        }
+    }
+}
+
+esdk {
+	app {
+		name = "DPD"
+		vendorId = "GM"
+		appId = "padpd"
+		shared = true
+		infosystems = []
+		tables = ["(Customer)" ,"(Vendor)" , "(Sales)" , "(Company)"]
+		screens = ["1":"D","35":"A"]
+		data = []
+		keys = []
+		enums = ["DpdOrderTyp","DpdPapierformat" , "DpdPersonalDelivery" , "DpdProductsFile" , "DpdProductsWeb"]
+		languages = "DE"
+	}
+
+	abas {
+		homeDir = ABAS_HOMEDIR
+		clientDir = ABAS_CLIENTDIR
+		clientId = ABAS_CLIENTID
+		edpHost = EDP_HOST
+		edpPort = EDP_PORT.toInteger()
+		edpUser = EDP_USER
+		edpPassword = EDP_PASSWORD
+	}
+
+	nexus {
+		nexusHost = NEXUS_HOST
+		nexusPort = NEXUS_PORT.toInteger()
+		nexusRepoName = NEXUS_NAME
+		nexusPassword = NEXUS_PASSWORD
+	}
+
+	ssh {
+		host = SSH_HOST
+		port = SSH_PORT.toInteger()
+		user = SSH_USER
+		password = SSH_PASSWORD
+		key = SSH_KEY
+	}
+	installType = "SSH"
+}
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+compileJava {
+	options.encoding = "UTF-8"
+}
+
+configurations { compile.extendsFrom provided 
+                wsdl2java 
+}
+
+group = 'Parcel'
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			groupId 'Parcel'
+			artifactId 'DPD'
+			artifact createAppJar
+		}
+	}
+	repositories {
+		if (project.hasProperty("nexusSnapshotURL") && project.hasProperty("nexusReleaseURL")
+				&& project.hasProperty("nexusUser") && project.hasProperty("nexusPassword")) {
+			if (project.version.endsWith('-SNAPSHOT')) {
+				maven {
+					url nexusSnapshotURL
+					credentials {
+						username nexusUser
+						password nexusPassword
+					}
+				}
+			} else {
+				maven {
+					url nexusReleaseURL
+					credentials {
+						username nexusUser
+						password nexusPassword
+					}
+				}
+			}
+		}
+	}
+}
+
+dependencies {
+	provided 'de.abas.homedir:log4j:1.0.0' 
+	
+	compile group: 'org.apache.cxf', name: 'cxf-tools-wsdlto-core', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-tools-wsdlto-frontend-jaxws', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-tools-wsdlto-databinding-jaxb', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxws', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http-jetty', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-rt-rs-client', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-tools-common', version: '3.2.4'
+	
+	//compile 'javax.xml.ws:jaxws-api:2.3.0'
+	compile group: 'javax.xml.ws', name: 'jaxws-api', version: '2.3.0'
+	
+	
+    //compile group: 'javax.wsdl', name: 'javax.wsdl', version: '1.4.0.v200706111329'	
+	
+	//compile group: 'org.apache.axis', name: 'axis', version: '1.4'
+	
+	//wsdl2java("org.apache.cxf:cxf-tools-wsdlto-core:${cxfVersion}")
+    //wsdl2java("org.apache.cxf:cxf-tools-wsdlto-frontend-jaxws:${cxfVersion}")
+    //wsdl2java("org.apache.cxf:cxf-tools-wsdlto-databinding-jaxb:${cxfVersion}")
+    // '-autoNameResolution', '-exsh', '-mark-generated' ,
+	
+	
+	
+}
+
+wsdl2java{
+    generatedWsdlDir = file("${projectDir}/src/gen/service") //java source classes will be generated
+    wsdlDir=file("${projectDir}/src/main/resources/wsdl-Files/") //wsdl directory
+    wsdlsToGenerate = [
+        ['-client' , '-mark-generated' , '-autoNameResolution', '-exsh', 'true', file("${projectDir}/src/main/resources/wsdl-Files/login.wsdl")], //wsdl1
+        ['-client' , '-mark-generated' , '-autoNameResolution', '-exsh', 'true', file("${projectDir}/src/main/resources/wsdl-Files/parcelservice.wsdl")], //wsdl2
+        ['-client' , '-mark-generated' , '-autoNameResolution', '-exsh', 'true', file("${projectDir}/src/main/resources/wsdl-Files/parcellifecycle.wsdl")]  //wsdl3
+    ]
+    //locale = Locale.GERMANY
+}
+
+wsdl2javaExt {
+cxfVersion = "3.2.4"
+}

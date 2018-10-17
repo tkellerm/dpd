@@ -1,0 +1,325 @@
+database master Kunde {
+	classname Customer
+	structure Kunde {
+		groupNumber 1
+		head {
+			field GL17 customerno {
+				label ""
+				heading ""
+				description "Kundennummer DPD"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 predict {
+                label ""
+                heading ""
+                description "Benachrichtigung aktivieren"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field I1 notechannel {
+                label ""
+                heading ""
+                description "Benachritigungsart 1=Email  2=SMS"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GL50 notevalue {
+                label ""
+                heading ""
+                description "Emailadresse oder Handynummer"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GL2 notelang {
+                label ""
+                heading ""
+                description "Sprachkürzel"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 notepers {
+                label ""
+                heading ""
+                description "persönliche Benachrichtigung"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noteproact {
+                label ""
+                heading ""
+                description "proaktive Benachritigung"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field I2 noterule {
+                label ""
+                heading ""
+                description "proaktive Benachritigung RegelCode"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noterupick {
+                label ""
+                heading ""
+                description Abholung
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noterunodel {
+                label ""
+                heading ""
+                description "nicht Auslieferung"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noterudel {
+                label ""
+                heading ""
+                description Auslieferung
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noteruinbo {
+                label ""
+                heading ""
+                description Inbound
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noteruoutde {
+                label ""
+                heading ""
+                description "Auf dem Weg zur Auslieferung"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GL20 notedelday {
+                label ""
+                heading ""
+                description
+                "Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GD notedeldafr {
+                label ""
+                heading ""
+                description "Anlierungsdatum von"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GD notedeldato {
+                label ""
+                heading ""
+                description "Anlierungsdatum bis"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field Z notedeltifr {
+                label ""
+                heading ""
+                description "Anlierungszeit von"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field Z notedeltito {
+                label ""
+                heading ""
+                description "Anlierungszeit bis"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+		}
+	}
+	structure Kundenkontakt {
+		groupNumber 2
+		head {
+		field B1 predict {
+                label ""
+                heading ""
+                description "Benachrichtigung aktivieren"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field I1 notechannel {
+                label ""
+                heading ""
+                description "Benachritigungsart 1=Email  2=SMS"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GL50 notevalue {
+                label ""
+                heading ""
+                description "Emailadresse oder Handynummer"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GL2 notelang {
+                label ""
+                heading ""
+                description "Sprachkürzel"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 notepers {
+                label ""
+                heading ""
+                description "persönliche Benachrichtigung"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noteproact {
+                label ""
+                heading ""
+                description "proaktive Benachritigung"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field I2 noterule {
+                label ""
+                heading ""
+                description "proaktive Benachritigung RegelCode"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noterupick {
+                label ""
+                heading ""
+                description Abholung
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noterunodel {
+                label ""
+                heading ""
+                description "nicht Auslieferung"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noterudel {
+                label ""
+                heading ""
+                description Auslieferung
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noteruinbo {
+                label ""
+                heading ""
+                description Inbound
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B1 noteruoutde {
+                label ""
+                heading ""
+                description "Auf dem Weg zur Auslieferung"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GL20 notedelday {
+                label ""
+                heading ""
+                description
+                "Anlierungstag (0=Sonntag,1=Montag , 2=Dienstag, 3= Mittwoch, etc.) 2,4,.."
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GD notedeldafr {
+                label ""
+                heading ""
+                description "Anlierungsdatum von"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GD notedeldato {
+                label ""
+                heading ""
+                description "Anlierungsdatum bis"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field Z notedeltifr {
+                label ""
+                heading ""
+                description "Anlierungszeit von"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field Z notedeltito {
+                label ""
+                heading ""
+                description "Anlierungszeit bis"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+		}
+	}
+	structure Bewegungsdaten {
+		groupNumber 3
+		head {
+		}
+	}
+	structure "EDI Kunden/Lieferanteninfo" {
+		groupNumber 4
+		head {
+		}
+		table {
+		}
+	}
+	structure Interessent {
+		groupNumber 6
+		head {
+			field GL17 customerno {
+				label ""
+				heading ""
+				description "Kundennummer DPD"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+	}
+	structure Interessentenkontakt {
+		groupNumber 7
+		head {
+		}
+	}
+}

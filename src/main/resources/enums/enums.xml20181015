@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ABASData>
+    <RecordSet tableNumber="109:2" tableName="Wertemengen:Bezeichner" identifier="guid" standard="false" importOnce="false" importMode="normal">
+        <Record id="(1763,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1763,109,0)</Field>
+                <Field name="guid" abasType="GLA38">5bfb461b-6d82-4632-9c18-7a17523dbee4</Field>
+                <Field name="nummer" abasType="NK109">1000971</Field>
+                <Field name="such" abasType="SWK109">DPDORDERTYPCOLLREQUESTOR</Field>
+                <Field name="name" abasType="GL50">Sammelauftrag Bestellung</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL">collection request order</Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15"></Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1778,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1778,109,0)</Field>
+                <Field name="guid" abasType="GLA38">9fc3348a-f03f-402f-ad36-2c11318a9474</Field>
+                <Field name="nummer" abasType="NK109">1000986</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEEECN</Field>
+                <Field name="name" abasType="GL50">DPD Express Eco</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">EECN</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1774,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1774,109,0)</Field>
+                <Field name="guid" abasType="GLA38">6964c4c6-35c7-4486-a248-ec664079e785</Field>
+                <Field name="nummer" abasType="NK109">1000982</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEID</Field>
+                <Field name="name" abasType="GL50">DPD Same Day</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">SD</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1760,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1760,109,0)</Field>
+                <Field name="guid" abasType="GLA38">d6b114c7-b566-4eff-943d-40fcf13e5ef3</Field>
+                <Field name="nummer" abasType="NK109">1000968</Field>
+                <Field name="such" abasType="SWK109">DPDPERSONALDELIVERY4</Field>
+                <Field name="name" abasType="GL50">persönliche Lieferung mit ID -Prüfung an Paketshop</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL">personal delivery with personal identification at drop point (e.g. parcel shop)</Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">4</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1783,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1783,109,0)</Field>
+                <Field name="guid" abasType="GLA38">b2f8b813-22fa-4e63-a564-12c53c5c3f9b</Field>
+                <Field name="nummer" abasType="NK109">1000991</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTWEBE12</Field>
+                <Field name="name" abasType="GL50">DPD 12:00</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">E12</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1754,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1754,109,0)</Field>
+                <Field name="guid" abasType="GLA38">db15d740-6548-46cb-9964-7020b0a31ce3</Field>
+                <Field name="nummer" abasType="NK109">1000962</Field>
+                <Field name="such" abasType="SWK109">DPDPAPIERA4</Field>
+                <Field name="name" abasType="GL50">DPD Papierformat A4</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15">DIN A4</Field>
+                <Field name="katego" abasType="NT15">A4</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1775,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1775,109,0)</Field>
+                <Field name="guid" abasType="GLA38">ea913bff-1d3b-46dc-8a2a-3503427ff466</Field>
+                <Field name="nummer" abasType="NK109">1000983</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEPL</Field>
+                <Field name="name" abasType="GL50">DPD PARCEL Letter</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">PL</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1757,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1757,109,0)</Field>
+                <Field name="guid" abasType="GLA38">20bd5aba-7057-4de0-b0a4-c48c9cd1a5d1</Field>
+                <Field name="nummer" abasType="NK109">1000965</Field>
+                <Field name="such" abasType="SWK109">DPDPERSONALDELIVERY1</Field>
+                <Field name="name" abasType="GL50">Lieferung an Abteilung</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL">department delivery (without personal identification)</Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">1</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1758,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1758,109,0)</Field>
+                <Field name="guid" abasType="GLA38">33557047-619e-4803-97da-dac782897d2d</Field>
+                <Field name="nummer" abasType="NK109">1000966</Field>
+                <Field name="such" abasType="SWK109">DPDPERSONALDELIVERY2</Field>
+                <Field name="name" abasType="GL50">persönlichge Übergabe mit Ausweiskontrolle</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL">personal delivery with personal identification (ID-Check)</Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">2</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1755,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1755,109,0)</Field>
+                <Field name="guid" abasType="GLA38">b5b9dded-04eb-4d28-a8b1-e99a7e6ee1e6</Field>
+                <Field name="nummer" abasType="NK109">1000963</Field>
+                <Field name="such" abasType="SWK109">DPDPAPIERA6</Field>
+                <Field name="name" abasType="GL50">DPD Papierformat A6</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15">DIN A6</Field>
+                <Field name="katego" abasType="NT15">A6</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1788,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1788,109,0)</Field>
+                <Field name="guid" abasType="GLA38">1c6857cd-8243-4639-b4b7-5bbddb482afa</Field>
+                <Field name="nummer" abasType="NK109">1000996</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTWEBPL+</Field>
+                <Field name="name" abasType="GL50">DPD Parcel Letter PLus</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15">PL+</Field>
+                <Field name="katego" abasType="NT15">PLP</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1759,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1759,109,0)</Field>
+                <Field name="guid" abasType="GLA38">82bf8e65-2238-4c6e-a8e8-bf596cf911a9</Field>
+                <Field name="nummer" abasType="NK109">1000967</Field>
+                <Field name="such" abasType="SWK109">DPDPERSONALDELIVERY3</Field>
+                <Field name="name" abasType="GL50">persönliche Lieferung ohne Prüfung an Paketshop</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL">personal delivery without personal identification at drop point (e.g. parcel shop)</Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">3</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1776,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1776,109,0)</Field>
+                <Field name="guid" abasType="GLA38">347bbdfb-77f6-4668-9ccc-a28ba64d5697</Field>
+                <Field name="nummer" abasType="NK109">1000984</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEPL+</Field>
+                <Field name="name" abasType="GL50">DPD PARCELLetterPlus</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15">PL+</Field>
+                <Field name="katego" abasType="NT15">PLP</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1767,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1767,109,0)</Field>
+                <Field name="guid" abasType="GLA38">c627019d-d640-4621-8f96-24a4cf5f7724</Field>
+                <Field name="nummer" abasType="NK109">1000975</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEE18</Field>
+                <Field name="name" abasType="GL50">DPD 18:00 / GUA</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">E18</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1770,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1770,109,0)</Field>
+                <Field name="guid" abasType="GLA38">097e89b9-cca1-4a47-a914-a018f0ca9dc0</Field>
+                <Field name="nummer" abasType="NK109">1000978</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEE830</Field>
+                <Field name="name" abasType="GL50">DPD 8:30</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">E830</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1764,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1764,109,0)</Field>
+                <Field name="guid" abasType="GLA38">2b1e6494-cc92-418c-b4c5-7724833fceba</Field>
+                <Field name="nummer" abasType="NK109">1000972</Field>
+                <Field name="such" abasType="SWK109">DPDORDERTYPPICKUP</Field>
+                <Field name="name" abasType="GL50">Abholinformation</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL">pickup information</Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15"></Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1762,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1762,109,0)</Field>
+                <Field name="guid" abasType="GLA38">540ffab7-4464-4219-93af-9b0c7b1a1cd0</Field>
+                <Field name="nummer" abasType="NK109">1000970</Field>
+                <Field name="such" abasType="SWK109">DPDORDERTYPCONSIGMENT</Field>
+                <Field name="name" abasType="GL50">Sendung</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL">consigment</Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15"></Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1765,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1765,109,0)</Field>
+                <Field name="guid" abasType="GLA38">0f2043d4-145b-4093-841d-05c434ffd572</Field>
+                <Field name="nummer" abasType="NK109">1000973</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILENP</Field>
+                <Field name="name" abasType="GL50">DPD Classic</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">NP</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1782,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1782,109,0)</Field>
+                <Field name="guid" abasType="GLA38">0712c246-b9ba-457b-a96e-e2a2bdf91fdc</Field>
+                <Field name="nummer" abasType="NK109">1000990</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTWEBE18</Field>
+                <Field name="name" abasType="GL50">DPD 18:00 / GUA</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">E18</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1769,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1769,109,0)</Field>
+                <Field name="guid" abasType="GLA38">6fcd232d-a6a3-4227-a3b2-18acd5dcaec2</Field>
+                <Field name="nummer" abasType="NK109">1000977</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEE10</Field>
+                <Field name="name" abasType="GL50">DPD 10:00</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">E10</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1772,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1772,109,0)</Field>
+                <Field name="guid" abasType="GLA38">453bf140-8d5e-4054-8437-0cf811e53ad7</Field>
+                <Field name="nummer" abasType="NK109">1000980</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEMAX</Field>
+                <Field name="name" abasType="GL50">DPD MAX</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">MAX</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1771,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1771,109,0)</Field>
+                <Field name="guid" abasType="GLA38">baddcd7c-7584-40b4-b9e9-d551bf86ae6b</Field>
+                <Field name="nummer" abasType="NK109">1000979</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEB2CR</Field>
+                <Field name="name" abasType="GL50">DPD B2C Retoure</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">B2CR</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1784,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1784,109,0)</Field>
+                <Field name="guid" abasType="GLA38">7de3fddd-cf25-4c2b-bd5e-d7d55f2e668e</Field>
+                <Field name="nummer" abasType="NK109">1000992</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTWEBE10</Field>
+                <Field name="name" abasType="GL50">DPD 10:00</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">E10</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1768,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1768,109,0)</Field>
+                <Field name="guid" abasType="GLA38">430eb636-112f-42c5-b643-7bc8d9a239a8</Field>
+                <Field name="nummer" abasType="NK109">1000976</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEE12</Field>
+                <Field name="name" abasType="GL50">DPD 12:00</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">E12</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1773,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1773,109,0)</Field>
+                <Field name="guid" abasType="GLA38">ecfae988-a455-43b4-9221-267ee5a06429</Field>
+                <Field name="nummer" abasType="NK109">1000981</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEIE2</Field>
+                <Field name="name" abasType="GL50">DPD EXPRESS</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">IE2</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1786,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1786,109,0)</Field>
+                <Field name="guid" abasType="GLA38">fa99231f-dbd4-4c68-b53d-36bc4a341ef9</Field>
+                <Field name="nummer" abasType="NK109">1000994</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTWEBIE2</Field>
+                <Field name="name" abasType="GL50">DPD Express</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">IE2</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1781,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1781,109,0)</Field>
+                <Field name="guid" abasType="GLA38">c9f3e782-3e42-49c8-8154-698ef6f7a267</Field>
+                <Field name="nummer" abasType="NK109">1000989</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTWEBMAIL</Field>
+                <Field name="name" abasType="GL50">DPD MAIL</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">MAIL</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1787,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1787,109,0)</Field>
+                <Field name="guid" abasType="GLA38">ef7920b8-d4e7-4b92-92ac-5843e08fa4dc</Field>
+                <Field name="nummer" abasType="NK109">1000995</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTWEBPL</Field>
+                <Field name="name" abasType="GL50">DPD Parcel Letter</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">PL</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1756,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1756,109,0)</Field>
+                <Field name="guid" abasType="GLA38">49166a65-15a6-4c28-a973-e0ed432bd944</Field>
+                <Field name="nummer" abasType="NK109">1000964</Field>
+                <Field name="such" abasType="SWK109">DPDPAPIERA7</Field>
+                <Field name="name" abasType="GL50">DPD Papierformat A7</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15">DIN A7</Field>
+                <Field name="katego" abasType="NT15">A7</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1777,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1777,109,0)</Field>
+                <Field name="guid" abasType="GLA38">ced6a3fd-7a26-4c79-80ec-88560f67dea9</Field>
+                <Field name="nummer" abasType="NK109">1000985</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILESP</Field>
+                <Field name="name" abasType="GL50">DPD CLASSIC Small</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">SP</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1780,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1780,109,0)</Field>
+                <Field name="guid" abasType="GLA38">4c59acad-a0ea-408c-b2f0-6feecb029069</Field>
+                <Field name="nummer" abasType="NK109">1000988</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTWEBCL</Field>
+                <Field name="name" abasType="GL50">DPD Classic</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">CL</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1766,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1766,109,0)</Field>
+                <Field name="guid" abasType="GLA38">63b7b208-a65a-4559-aa09-e53209138c34</Field>
+                <Field name="nummer" abasType="NK109">1000974</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEMAIL</Field>
+                <Field name="name" abasType="GL50">DPD Mail</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">MAIL</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1785,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1785,109,0)</Field>
+                <Field name="guid" abasType="GLA38">7b9f1193-a448-4dd1-bda0-8ee5ebab9ec5</Field>
+                <Field name="nummer" abasType="NK109">1000993</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTWEBE830</Field>
+                <Field name="name" abasType="GL50">DPD 8:30</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">E830</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1779,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1779,109,0)</Field>
+                <Field name="guid" abasType="GLA38">a800a8d1-751f-4182-b2fd-9018bcee5d95</Field>
+                <Field name="nummer" abasType="NK109">1000987</Field>
+                <Field name="such" abasType="SWK109">DPDPRODUCTFILEEECS</Field>
+                <Field name="name" abasType="GL50">DPD Express Eco Small</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL"></Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">EECS</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+        <Record id="(1761,109,0)">
+            <Head>
+                <Field name="id" abasType="ID109">(1761,109,0)</Field>
+                <Field name="guid" abasType="GLA38">081258d5-50d5-44bc-adef-0e908f0c0d44</Field>
+                <Field name="nummer" abasType="NK109">1000969</Field>
+                <Field name="such" abasType="SWK109">DPDPERSONALDELIVERY5</Field>
+                <Field name="name" abasType="GL50">persönliche Lieferung mit ID-Prüfung an Paketshop</Field>
+                <Field name="name14" abasType="GL50"></Field>
+                <Field name="langtxt" abasType="GL">personal delivery with personal identification at drop point plus ID-Check (e.g. parcel shop)</Field>
+                <Field name="kbezbspr" abasType="GL15"></Field>
+                <Field name="katego" abasType="NT15">5</Field>
+                <Field name="icontxt" abasType="DV1"></Field>
+                <Field name="besch" abasType="T65"></Field>
+            </Head>
+        </Record>
+    </RecordSet>
+    <RecordSet tableNumber="107:1" tableName="Aufzählung:Aufzählung" identifier="guid" standard="false" importOnce="false" importMode="normal">
+        <Record id="(326,107,0)">
+            <Head>
+                <Field name="id" abasType="ID107">(326,107,0)</Field>
+                <Field name="guid" abasType="GLA38">6e213aa0-cc9b-4c4c-98bc-7c2b8b6184db</Field>
+                <Field name="nummer" abasType="NK107">1000011</Field>
+                <Field name="such" abasType="SWK107">DPDPRODUCTFILE</Field>
+                <Field name="name" abasType="GL45">DPD Produkte File</Field>
+                <Field name="name14" abasType="GL45"></Field>
+                <Field name="classname" abasType="GLA40">DpdProductsFile</Field>
+                <Field name="tabart" abasType="NT24">P109:2</Field>
+            </Head>
+            <Row number="2">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,2)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1766,109,0)</Field>
+            </Row>
+            <Row number="7">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,7)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1771,109,0)</Field>
+            </Row>
+            <Row number="3">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,3)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1767,109,0)</Field>
+            </Row>
+            <Row number="14">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,14)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1778,109,0)</Field>
+            </Row>
+            <Row number="10">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,10)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1774,109,0)</Field>
+            </Row>
+            <Row number="6">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,6)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1770,109,0)</Field>
+            </Row>
+            <Row number="13">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,13)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1777,109,0)</Field>
+            </Row>
+            <Row number="1">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,1)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1765,109,0)</Field>
+            </Row>
+            <Row number="5">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,5)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1769,109,0)</Field>
+            </Row>
+            <Row number="9">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,9)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1773,109,0)</Field>
+            </Row>
+            <Row number="15">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,15)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1779,109,0)</Field>
+            </Row>
+            <Row number="8">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,8)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1772,109,0)</Field>
+            </Row>
+            <Row number="4">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,4)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1768,109,0)</Field>
+            </Row>
+            <Row number="12">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,12)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1776,109,0)</Field>
+            </Row>
+            <Row number="11">
+                <Field name="zid" abasType="IDZ107:1">(326,107,0,11)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1775,109,0)</Field>
+            </Row>
+        </Record>
+        <Record id="(324,107,0)">
+            <Head>
+                <Field name="id" abasType="ID107">(324,107,0)</Field>
+                <Field name="guid" abasType="GLA38">90ae7017-9f6f-4569-a303-e4294c895f44</Field>
+                <Field name="nummer" abasType="NK107">1000009</Field>
+                <Field name="such" abasType="SWK107">DPDPERSONALDELY</Field>
+                <Field name="name" abasType="GL45">DPD Anlieferung Persönlich</Field>
+                <Field name="name14" abasType="GL45"></Field>
+                <Field name="classname" abasType="GLA40">DpdPersonalDelivery</Field>
+                <Field name="tabart" abasType="NT24">P109:2</Field>
+            </Head>
+            <Row number="1">
+                <Field name="zid" abasType="IDZ107:1">(324,107,0,1)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1757,109,0)</Field>
+            </Row>
+            <Row number="2">
+                <Field name="zid" abasType="IDZ107:1">(324,107,0,2)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1758,109,0)</Field>
+            </Row>
+            <Row number="4">
+                <Field name="zid" abasType="IDZ107:1">(324,107,0,4)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1760,109,0)</Field>
+            </Row>
+            <Row number="3">
+                <Field name="zid" abasType="IDZ107:1">(324,107,0,3)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1759,109,0)</Field>
+            </Row>
+            <Row number="5">
+                <Field name="zid" abasType="IDZ107:1">(324,107,0,5)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1761,109,0)</Field>
+            </Row>
+        </Record>
+        <Record id="(327,107,0)">
+            <Head>
+                <Field name="id" abasType="ID107">(327,107,0)</Field>
+                <Field name="guid" abasType="GLA38">53c25f1f-4a4a-487d-9258-63966c94b012</Field>
+                <Field name="nummer" abasType="NK107">1000012</Field>
+                <Field name="such" abasType="SWK107">DPDPRODUCTWEB</Field>
+                <Field name="name" abasType="GL45">DPD Produkte Web</Field>
+                <Field name="name14" abasType="GL45"></Field>
+                <Field name="classname" abasType="GLA40">DpdProductsWeb</Field>
+                <Field name="tabart" abasType="NT24">P109:2</Field>
+            </Head>
+            <Row number="7">
+                <Field name="zid" abasType="IDZ107:1">(327,107,0,7)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1786,109,0)</Field>
+            </Row>
+            <Row number="1">
+                <Field name="zid" abasType="IDZ107:1">(327,107,0,1)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1780,109,0)</Field>
+            </Row>
+            <Row number="8">
+                <Field name="zid" abasType="IDZ107:1">(327,107,0,8)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1787,109,0)</Field>
+            </Row>
+            <Row number="4">
+                <Field name="zid" abasType="IDZ107:1">(327,107,0,4)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1783,109,0)</Field>
+            </Row>
+            <Row number="9">
+                <Field name="zid" abasType="IDZ107:1">(327,107,0,9)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1788,109,0)</Field>
+            </Row>
+            <Row number="3">
+                <Field name="zid" abasType="IDZ107:1">(327,107,0,3)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1782,109,0)</Field>
+            </Row>
+            <Row number="5">
+                <Field name="zid" abasType="IDZ107:1">(327,107,0,5)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1784,109,0)</Field>
+            </Row>
+            <Row number="6">
+                <Field name="zid" abasType="IDZ107:1">(327,107,0,6)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1785,109,0)</Field>
+            </Row>
+            <Row number="2">
+                <Field name="zid" abasType="IDZ107:1">(327,107,0,2)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1781,109,0)</Field>
+            </Row>
+        </Record>
+        <Record id="(325,107,0)">
+            <Head>
+                <Field name="id" abasType="ID107">(325,107,0)</Field>
+                <Field name="guid" abasType="GLA38">40c4d3c0-309d-483a-a54b-86ea94425421</Field>
+                <Field name="nummer" abasType="NK107">1000010</Field>
+                <Field name="such" abasType="SWK107">DPDORDERTYP</Field>
+                <Field name="name" abasType="GL45">DPD Auftragstyp</Field>
+                <Field name="name14" abasType="GL45"></Field>
+                <Field name="classname" abasType="GLA40">DpdOrderTyp</Field>
+                <Field name="tabart" abasType="NT24">P109:2</Field>
+            </Head>
+            <Row number="2">
+                <Field name="zid" abasType="IDZ107:1">(325,107,0,2)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1763,109,0)</Field>
+            </Row>
+            <Row number="1">
+                <Field name="zid" abasType="IDZ107:1">(325,107,0,1)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1762,109,0)</Field>
+            </Row>
+            <Row number="3">
+                <Field name="zid" abasType="IDZ107:1">(325,107,0,3)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1764,109,0)</Field>
+            </Row>
+        </Record>
+        <Record id="(323,107,0)">
+            <Head>
+                <Field name="id" abasType="ID107">(323,107,0)</Field>
+                <Field name="guid" abasType="GLA38">3d9c5665-6a7b-4940-962e-ad15c1b1153b</Field>
+                <Field name="nummer" abasType="NK107">1000008</Field>
+                <Field name="such" abasType="SWK107">DPDPAPIERFORMAT</Field>
+                <Field name="name" abasType="GL45">Papierformat DPD</Field>
+                <Field name="name14" abasType="GL45"></Field>
+                <Field name="classname" abasType="GLA40">DpdPapierformat</Field>
+                <Field name="tabart" abasType="NT24">P109:2</Field>
+            </Head>
+            <Row number="1">
+                <Field name="zid" abasType="IDZ107:1">(323,107,0,1)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1754,109,0)</Field>
+            </Row>
+            <Row number="2">
+                <Field name="zid" abasType="IDZ107:1">(323,107,0,2)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1755,109,0)</Field>
+            </Row>
+            <Row number="3">
+                <Field name="zid" abasType="IDZ107:1">(323,107,0,3)</Field>
+                <Field name="vaufzelem" abasType="VID88">(1756,109,0)</Field>
+            </Row>
+        </Record>
+    </RecordSet>
+</ABASData>

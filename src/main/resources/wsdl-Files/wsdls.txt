@@ -1,0 +1,3 @@
+src/main/resources/login.wsdl
+src/main/resources/parcellifecycle.wsdl
+src/main/resources/parcelservice.wsdl

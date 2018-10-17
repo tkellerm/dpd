@@ -1,0 +1,34 @@
+database master Kunde {
+	classname Customer
+	structure Kunde {
+		groupNumber 1
+		head {
+			field GL17 customerno {
+				label ""
+				heading ""
+				description "Kundennummer DPD"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+	}
+	structure Kundenkontakt {
+		groupNumber 2
+		head {
+		}
+	}
+	structure Bewegungsdaten {
+		groupNumber 3
+		head {
+		}
+	}
+	structure "EDI Kunden/Lieferanteninfo" {
+		groupNumber 4
+		head {
+		}
+		table {
+		}
+	}
+	
+}
